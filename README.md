@@ -1,8 +1,8 @@
-##README
+## README
 
 Documentation for Digital Image Processing, assignment 1, lecture 3.
 
-####Question 1
+#### Question 1
 
 1.  PPT page 43
 
@@ -18,7 +18,7 @@ codes implemented in matlab can be find here: [q2\gaussian_3d.m](q2\gaussian.m)
 
 result images here: [q2\gaussian.gif](q2\gaussian.gif)
 
-####Question 3
+#### Question 3
 
 code implemented in matlab:
 
@@ -36,7 +36,7 @@ codes implemented in matlab:
 
 with comparation and result image.
 
-####Question 5
+#### Question 5
 
 codes in matlab.
 
