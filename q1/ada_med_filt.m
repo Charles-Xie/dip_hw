@@ -1,10 +1,10 @@
-function ada_med_filt(img_name)
+function ada_med_filt(img)
 % Adaptive Median Filter
-% @param img_name: the name of the image file
+% @param img
 % apply adaptive median filter to an image and show filtered image
 % together with the original image
 
-im = imread(img_name);
+im = img;
 
 S_MIN = 3;      % the min size of the filter
 S_MAX = 11;     %  the max size of the filter
@@ -36,15 +36,12 @@ for r = (1 + pad_size): (HEIGHT + pad_size)
             z_min = sorted(1);
             z_max = sorted(length(sorted));
             z_med = sorted((length(sorted) + 1)/2);
-            z_max;
-            z_med;
-            z_min;
             x = z_med-z_min;
             y = z_max-z_med;
             if z_med - z_min > 0 & z_max - z_med > 0
                 z_med - z_min;
                 z_max - z_med;
-                z_med - z_max;         % this is strange because it is restricted to be at least 0
+                z_med - z_max;         % this is strange because it is restricted to be at least 0, now I know this is because uint type
                 % go to stage B
                 if z_xy - z_min > 0 & z_max - z_xy > 0
                     % output z_xy
