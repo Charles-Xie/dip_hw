@@ -14,7 +14,7 @@ codes implemented in matlab can be find here: [q1/ada_med_filt.m](q1/ada_med_fil
 
 #### Question 2
 
-codes implemented in matlab can be find here: [q2/gaussian_3d.m](q2/gaussian.m)
+codes implemented in matlab can be find here: [q2/gaussian_3d.m](q2/gaussian_3d.m)
 
 result images here: [q2/gaussian.gif](q2/gaussian.gif)
 
