@@ -10,7 +10,7 @@ Documentation for Digital Image Processing, assignment 1, lecture 3.
 
 2. PPT page 120
 
-codes implemented in matlab can be find here: [q1/ada_med_filt.m](q1/ada_med_filt.m)
+codes implemented in matlab can be find here: [q1/ada_med_filt.m](./q1/ada_med_filt.m)
 
 #### Question 2
 
